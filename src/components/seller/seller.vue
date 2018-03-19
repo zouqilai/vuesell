@@ -1,5 +1,5 @@
 <template>
-  <div class="goods">tab seller</div>
+  <div class="goods">我是商家</div>
 </template>
 
 <script>

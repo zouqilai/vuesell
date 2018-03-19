@@ -1,5 +1,5 @@
 <template>
-  <div class="goods">tab content</div>
+  <div class="goods">我是评论</div>
 </template>
 
 <script>
