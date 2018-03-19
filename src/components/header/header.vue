@@ -53,6 +53,11 @@ export default {
 .special{background-image:url('special_1@2x.png');}
 .text{font-size:12px;}
 &media (-webkit-min-device-pixel-ratio:3),(min-device-pixel-ratio:3){
-  .brand{background-image:url('brand@3x.png');}
+	.brand{background-image:url('brand@3x.png');}
+ 	.discount{background-image:url('discount_1@3x.png');}
+	.decrease{background-image:url('decrease_1@3x.png');}
+	.guarantee{background-image:url('guarantee_1@3x.png');}
+	.invoice{background-image:url('invoice_1@3x.png');}
+	.special{background-image:url('special_1@3x.png');}
 }
 </style>
