@@ -11,7 +11,7 @@ import ratings from 'components/ratings/ratings';
 import seller from 'components/seller/seller';
 // import router from './router'
 
-// import './common/stylus/mixin.styl';
+import './common/stylus/icon.css';
 
 // Vue.config.productionTip = false
 Vue.use(VueRouter);
@@ -19,7 +19,7 @@ Vue.use(VueResource);
 /* eslint-disable no-new */
 // components: { App },//注册当前的插件{App:App} es6的写法缩写了
 const routes = [
-  { path: '/goods', component: goods },
+  { path: '/goods', component: goods, props: this.$ref },
   { path: '/ratings', component: ratings },
   { path: '/seller', component: seller },
   {path: '/', redirect: '/goods'}
